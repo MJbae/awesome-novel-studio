@@ -35,7 +35,6 @@ AI 기반 웹소설 창작 하네스. Claude Code 위에서 동작하며, 18개 
 #### 세션 재시작으로 활성화
 ```shell
 /exit
-claude
 ```
 
 ---

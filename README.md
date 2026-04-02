@@ -37,7 +37,6 @@ An end-to-end web novel production system built on Claude Code. Combines 18 spec
 #### Restart session to activate
 ```shell
 /exit
-claude
 ```
 
 ---
