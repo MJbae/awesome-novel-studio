@@ -21,8 +21,9 @@ AI 기반 웹소설 창작 하네스. Claude Code 위에서 동작하며, 18개 
 ## 설치
 
 ```bash
-# 플러그인 설치
-/plugin install novel-studio
+# 마켓플레이스 등록 & 설치
+/plugin marketplace add MJbae/novel-studio
+/plugin install novel-studio@awesome-ai-studio
 
 # 스킬 호출
 /novel-studio:propose

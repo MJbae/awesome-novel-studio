@@ -260,18 +260,10 @@ footer .links{display:flex;gap:2rem;justify-content:center;margin-bottom:1rem}
 
     <div class="reveal">
       <div class="code-block" id="code-plugin">
-        <div class="code-label" data-i18n="install.label1">Plugin Install (Recommended)</div>
+        <div class="code-label" data-i18n="install.label1">Plugin Install</div>
         <button class="copy-btn" onclick="copyCode(this,'code-plugin')" data-i18n="common.copy">Copy</button>
-        <span class="prompt">/</span> <span class="cmd">plugin install github:MJbae/novel-studio</span>
-      </div>
-    </div>
-
-    <div class="reveal">
-      <div class="code-block" id="code-git">
-        <div class="code-label" data-i18n="install.label2">Manual Install (Git Clone)</div>
-        <button class="copy-btn" onclick="copyCode(this,'code-git')" data-i18n="common.copy">Copy</button>
-        <span class="prompt">$</span> <span class="cmd">git clone https://github.com/MJbae/novel-studio my-novel</span><br>
-        <span class="prompt">$</span> <span class="cmd">cd my-novel && claude</span>
+        <span class="prompt">/</span> <span class="cmd">plugin marketplace add MJbae/novel-studio</span><br>
+        <span class="prompt">/</span> <span class="cmd">plugin install novel-studio@awesome-ai-studio</span>
       </div>
     </div>
   </div>
