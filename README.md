@@ -23,14 +23,8 @@ An end-to-end web novel production system built on Claude Code. Combines 18 spec
 ## Installation
 
 ```bash
-# Add marketplace & install
 /plugin marketplace add MJbae/novel-studio
 /plugin install novel-studio@awesome-ai-studio
-
-# Invoke skills
-/novel-studio:propose
-/novel-studio:create
-/novel-studio:polish
 ```
 
 ### Requirements
