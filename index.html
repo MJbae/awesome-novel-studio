@@ -259,11 +259,34 @@ footer .links{display:flex;gap:2rem;justify-content:center;margin-bottom:1rem}
     <h2 class="reveal" data-i18n="install.title">Get Started</h2>
 
     <div class="reveal">
-      <div class="code-block" id="code-plugin">
-        <div class="code-label" data-i18n="install.label1">Plugin Install</div>
-        <button class="copy-btn" onclick="copyCode(this,'code-plugin')" data-i18n="common.copy">Copy</button>
-        <span class="prompt">/</span> <span class="cmd">plugin marketplace add MJbae/novel-studio</span><br>
+      <div class="code-block" id="code-step1">
+        <div class="code-label" data-i18n="install.step1">Step 1 — Add the marketplace</div>
+        <button class="copy-btn" onclick="copyCode(this,'code-step1')" data-i18n="common.copy">Copy</button>
+        <span class="prompt">/</span> <span class="cmd">plugin marketplace add MJbae/novel-studio</span>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="code-block" id="code-step2">
+        <div class="code-label" data-i18n="install.step2">Step 2 — Install the plugin</div>
+        <button class="copy-btn" onclick="copyCode(this,'code-step2')" data-i18n="common.copy">Copy</button>
         <span class="prompt">/</span> <span class="cmd">plugin install novel-studio@awesome-ai-studio</span>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="code-block" id="code-step3">
+        <div class="code-label" data-i18n="install.step3">Step 3 — Restart session to activate</div>
+        <button class="copy-btn" onclick="copyCode(this,'code-step3')" data-i18n="common.copy">Copy</button>
+        <span class="prompt">/</span> <span class="cmd">exit</span>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="code-block" id="code-start">
+        <div class="code-label" data-i18n="install.start">Start creating your novel</div>
+        <button class="copy-btn" onclick="copyCode(this,'code-start')" data-i18n="common.copy">Copy</button>
+        <span class="prompt">/</span> <span class="cmd">propose</span>
       </div>
     </div>
   </div>
@@ -610,8 +633,10 @@ const i18n = {
   "story.closing": { en: "Novel Studio doesn't replace the author. It's the tool that keeps you going \u2014 all the way to episode 300.", ko: "Novel Studio는 작가를 대체하지 않습니다. 300화를 끝까지 쓸 수 있게, 옆에서 버텨주는 도구입니다." },
 
   "install.title": { en: "Get Started", ko: "시작하기" },
-  "install.label1": { en: "Plugin Install (Recommended)", ko: "플러그인 설치 (추천)" },
-  "install.label2": { en: "Manual Install (Git Clone)", ko: "수동 설치 (Git Clone)" },
+  "install.step1": { en: "Step 1 — Add the marketplace", ko: "1단계 — 마켓플레이스 등록" },
+  "install.step2": { en: "Step 2 — Install the plugin", ko: "2단계 — 플러그인 설치" },
+  "install.step3": { en: "Step 3 — Restart session to activate", ko: "3단계 — 세션 재시작으로 활성화" },
+  "install.start": { en: "Start creating your novel", ko: "소설 창작 시작" },
   "common.copy": { en: "Copy", ko: "복사" }
 };
 
